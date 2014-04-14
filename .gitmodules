@@ -1,9 +1,9 @@
 [submodule "lib/modero"]
-    path = lib/modero
-    url = https://github.com/AMXAUNZ/amx-modero-library.git
+	path = lib/modero
+	url = https://github.com/AMXAUNZ/amx-modero-library.git
 [submodule "lib/common"]
-    path = lib/common
-    url = https://github.com/AMXAUNZ/common-library.git
+	path = lib/common
+	url = https://github.com/AMXAUNZ/common-library.git
 [submodule "lib/device"]
     path = lib/device
     url = https://github.com/AMXAUNZ/amx-device-library.git
