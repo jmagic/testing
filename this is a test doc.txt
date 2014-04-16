@@ -11,3 +11,8 @@ Ok im adding some deivce names
 name 1
 name2
 name 3
+
+ok im adding some device id's
+id 1
+id 2
+id 3
