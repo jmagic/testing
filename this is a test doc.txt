@@ -31,6 +31,13 @@ import pickle
 #from serial.tools import list_ports
 debug = False
 
+first_run = True
+start_time = datetime.datetime.now().strftime('%H.%M.%S.%f')
+
+if not debug:
+    ser = serial.Serial("COM8", 9600, timeout=.1)
+    sio = io.TextIOWrapper(io.BufferedRWPair(ser,ser))
+
 
 line 1
 line 2
