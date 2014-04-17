@@ -22,3 +22,18 @@ Ok, now time for two conflicts! a dog
 What are you thinking! and a cat
 
 
+import os
+import io
+import datetime
+import csv
+import serial
+import pickle
+#from serial.tools import list_ports
+debug = False
+
+first_run = True
+start_time = datetime.datetime.now().strftime('%H.%M.%S.%f')
+
+if not debug:
+    ser = serial.Serial("COM8", 9600, timeout=.1)
+    sio = io.TextIOWrapper(io.BufferedRWPair(ser,ser))
